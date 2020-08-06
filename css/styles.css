@@ -6,6 +6,10 @@ Base Styles
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Merriweather', serif;
+}
+
 /* ================
 Media Queries 
 ================*/
