@@ -21,6 +21,12 @@ h1 {
     text-transform: uppercase;
 }
 
+p {
+    margin-bottom: 0;
+    padding-bottom: 16px;
+    border-bottom: #1c2433 solid 5px;
+}
+
 header,
 h2,
 p {
