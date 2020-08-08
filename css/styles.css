@@ -48,6 +48,8 @@ legend {
 
 fieldset {
     border: none;
+    padding: 10px 0;
+    margin: 10px 0;
 }
 
 header,
