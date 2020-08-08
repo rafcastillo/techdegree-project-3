@@ -78,7 +78,8 @@ legend {
 header,
 h2,
 p,
-.input {
+.input,
+.textarea {
     display: flex;
 }
 
@@ -88,9 +89,11 @@ p {
     justify-content: center;
 }
 
-.input {
+.input,
+.textarea {
     flex-direction: column;
 }
+
 
 /* ================
 Media Queries 
