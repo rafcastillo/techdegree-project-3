@@ -33,6 +33,11 @@ h1 {
     border-bottom: #1c2433 solid 5px;
 }
 
+.section {
+    border-top: #1c2433 solid 2px;
+    margin-top: 1px;
+}
+
 header,
 h2,
 p {
