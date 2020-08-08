@@ -128,18 +128,28 @@
           <fieldset>
             <legend>Newsletter</legend>
 
-            <div>
+            <div class="newsletter_lang">
               <label>Select the newsletters you would like to receive</label>
-              <input type="checkbox" id="html_news" value="html_news" name="newsletter"><label for="html_news">HTML News</label>
-              <input type="checkbox" id="css_news" value="css_news" name="newsletter"><label for="css_news">CSS News</label>
-              <input type="checkbox" id="js_news" value="js_news" name="newsletter"><label for="js_news">Javascript News</label>
+              <div class="news">
+                <input type="checkbox" id="html_news" value="html_news" name="newsletter"><label for="html_news">HTML News</label>
+              </div>
+              <div class="news">
+                <input type="checkbox" id="css_news" value="css_news" name="newsletter"><label for="css_news">CSS News</label>
+              </div>
+              <div class="news">
+                <input type="checkbox" id="js_news" value="js_news" name="newsletter"><label for="js_news">Javascript News</label>
+              </div>
             </div>
-            <div>
+            <div class="newsletter_format">
               <label>Newsletter format</label>
-              <input type="radio" id="html_format" value="html_format" name="format"><label for="html_format">HTML</label>
-              <input type="radio" id="plaintext_format" value="plaintext_format" name="format"><label for="plaintext_format">Plain text</label>
+              <div class="format">
+                <input type="radio" id="html_format" value="html_format" name="format"><label for="html_format">HTML</label>
+              </div>
+              <div class="format">
+                <input type="radio" id="plaintext_format" value="plaintext_format" name="format"><label for="plaintext_format">Plain text</label>
+              </div>
             </div>
-            <div>
+            <div class="textarea">
               <label for="topics">Other topics you'd like to hear about</label>
               <textarea id="topics" name="user_topics" placeholder="Your topic suggestions"></textarea>
             </div>
