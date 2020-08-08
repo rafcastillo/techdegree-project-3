@@ -4,7 +4,7 @@ Base Styles
 
 * {
     box-sizing: border-box;
-    border: red 1px solid;
+    /* border: red 1px solid; */
 }
 
 body {
@@ -52,11 +52,39 @@ fieldset {
     margin: 10px 0;
 }
 
+.input label {
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.input input,
+.input select {
+    padding: 10px ;
+    background-color: lightgray;
+    border: 0;
+    border-radius: 5px;
+}
+
+.input input[id="name"],
+.input input[type="email"] {
+    text-align: right;
+}
+
+header,
+h2,
+p,
+.input {
+    display: flex;
+}
+
 header,
 h2,
 p {
-    display: flex;
     justify-content: center;
+}
+
+.input {
+    flex-direction: column;
 }
 
 /* ================
