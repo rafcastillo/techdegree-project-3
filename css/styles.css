@@ -52,6 +52,11 @@ fieldset {
     margin: 10px 0;
 }
 
+legend {
+    padding-top: 5px;
+    font-size: 1.25em;
+}
+
 .input label {
     padding: 5px 0;
     margin: 5px 0;
