@@ -28,6 +28,12 @@ h1 {
     text-transform: uppercase;
 }
 
+h2,
+legend {
+    color: #1c2433;
+    font-weight: bold;
+}
+
 .latestnews {
     margin-bottom: 0;
     padding-bottom: 16px;
