@@ -16,6 +16,12 @@ header {
     background-color: #1c2433;
 }
 
+main,
+footer {
+    width: 95%;
+    margin: 0 auto;
+}
+
 h1 {
     color: #fff;
     text-transform: uppercase;
