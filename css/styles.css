@@ -12,8 +12,6 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: center;
     width: 100%;
     background-color: #1c2433;
 }
@@ -21,6 +19,13 @@ header {
 h1 {
     color: #fff;
     text-transform: uppercase;
+}
+
+header,
+h2,
+p {
+    display: flex;
+    justify-content: center;
 }
 
 /* ================
