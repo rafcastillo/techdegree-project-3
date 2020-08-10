@@ -82,6 +82,9 @@ Flexbox Layout
 
 body,
 header,
+main,
+h2,
+p,
 form,
 .subsection,
 .info,
@@ -89,46 +92,33 @@ form,
 .news,
 .newsletter_format,
 .format,
-.textarea {
+.suggestions,
+footer {
     display: flex; 
 } 
 
 body,
+main,
 form,
 .subsection,
+.info,
 .newsletter_lang,
-.newsletter_format {
+.newsletter_format,
+.suggestions {
     flex-direction: column;
+}
+
+header,
+h2,
+p,
+footer {
+    justify-content: center;
 }
 
 .news,
 .format {
     align-items: center;
 }
-
-header {
-    justify-content: center;
-}
-
-/* above this is new - KEEP */
-
-h2,
-p,
-.info,
-.textarea {
-    display: flex;
-}
-
-h2,
-p {
-    justify-content: center;
-}
-
-.info,
-.textarea {
-    flex-direction: column;
-}
-
 
 /* ================
 Media Queries 
