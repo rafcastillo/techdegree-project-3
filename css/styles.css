@@ -34,7 +34,7 @@ legend {
     font-weight: bold;
 }
 
-.latestnews {
+.h2_p {
     margin-bottom: 0;
     padding-bottom: 16px;
     border-bottom: #1c2433 solid 5px;
@@ -58,39 +58,73 @@ legend {
     font-size: 1.25em;
 }
 
-.input label {
+.info label {
     padding: 5px 0;
     margin: 5px 0;
 }
 
-.input input,
-.input select {
+.info input,
+.info select {
     padding: 10px ;
     background-color: lightgray;
     border: 0;
     border-radius: 5px;
 }
 
-.input input[id="name"],
-.input input[type="email"] {
+.info input[id="name"],
+.info input[type="email"] {
     text-align: right;
 }
 
+/* ================
+Flexbox Layout 
+================*/
+
+body,
 header,
+form,
+.subsection,
+.info,
+.newsletter_lang,
+.news,
+.newsletter_format,
+.format,
+.textarea {
+    display: flex; 
+} 
+
+body,
+form,
+.subsection,
+.newsletter_lang,
+.newsletter_format {
+    flex-direction: column;
+}
+
+.news,
+.format {
+    align-items: center;
+}
+
+header {
+    justify-content: center;
+}
+
+/* above this is new - KEEP */
+
 h2,
 p,
-.input,
+.info,
 .textarea {
     display: flex;
 }
 
-header,
 h2,
 p {
     justify-content: center;
 }
 
-.input,
+.info,
 .textarea {
     flex-direction: column;
 }
