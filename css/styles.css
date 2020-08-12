@@ -46,6 +46,17 @@ legend {
     margin-top: 1px;
 }
 
+.subsection {
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+legend {
+    margin: 30px 0 25px;
+    font-size: 1.4em;
+}
+
 /* First Fieldset - Contact Information */
 
 #name,
@@ -54,18 +65,6 @@ legend {
 }
 
 /* PERMANENT CODE ABOVE THIS LINE */
-
-.subsection {
-    border: none;
-    padding: 10px 0;
-    margin: 10px 0;
-}
-
-legend {
-    padding: 5px 0;
-    margin: 5px 0;
-    font-size: 1.25em;
-}
 
 .info label {
     padding: 5px 0;
