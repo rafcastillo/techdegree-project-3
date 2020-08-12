@@ -53,31 +53,38 @@ legend {
 }
 
 legend {
-    margin: 30px 0 25px;
+    padding: 15px 0;
     font-size: 1.4em;
 }
 
 /* First Fieldset - Contact Information */
+
+.info label {
+    margin: 20px 0 10px;
+}
+
+.info input,
+.info select {
+    background-color: lightgray;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
 
 #name,
 #mail {
     text-align: right;
 }
 
-/* PERMANENT CODE ABOVE THIS LINE */
-
-.info label {
-    padding: 5px 0;
-    margin: 5px 0;
+select {
+    color: #7e7d7d;
 }
 
-.info input,
-.info select {
-    padding: 10px ;
-    background-color: lightgray;
-    border: 0;
-    border-radius: 5px;
-}
+/* Second Fieldset - Newsletter */
+
+
+
+
 
 /* ================
 Flexbox Layout 
