@@ -34,15 +34,6 @@ legend {
     font-weight: bold;
 }
 
-/* XXX */
-
-#name,
-#mail {
-    text-align: right;
-}
-
-/* PERMANENT CODE ABOVE THIS LINE */
-
 .h2_p {
     margin-bottom: 0;
     padding-bottom: 16px;
@@ -55,7 +46,16 @@ legend {
     margin-top: 1px;
 }
 
-fieldset {
+/* First Fieldset - Contact Information */
+
+#name,
+#mail {
+    text-align: right;
+}
+
+/* PERMANENT CODE ABOVE THIS LINE */
+
+.subsection {
     border: none;
     padding: 10px 0;
     margin: 10px 0;
