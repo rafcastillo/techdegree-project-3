@@ -70,6 +70,10 @@ textarea {
     font-style: italic;
 }
 
+footer {
+    margin-bottom: 200px;
+}
+
 /* First Fieldset - Contact Information */
 
 .info label {
@@ -92,6 +96,10 @@ textarea {
 
 select {
     color: #7e7d7d;
+}
+
+#zip {
+    width: 50%;
 }
 
 /* Second Fieldset - Newsletter */
