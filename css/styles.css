@@ -221,4 +221,8 @@ Media Queries
         width: 80%;
         padding: 15px 0;
     }
+
+    footer {
+        margin-bottom: 200px;
+    }
 }
