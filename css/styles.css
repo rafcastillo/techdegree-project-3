@@ -32,6 +32,7 @@ h2,
 legend {
     color: #1c2433;
     font-weight: bold;
+    font-size: 1.8em;
 }
 
 h2 {
@@ -43,6 +44,7 @@ h2 {
     padding-bottom: 48px;
     border-bottom: #1c2433 solid 5px;
     text-align: center;
+    font-size: 1.3em;
 }
 
 .section {
@@ -207,6 +209,7 @@ Media Queries
 
     .h2_p {
         padding-bottom: 48px;
+        font-size: initial;
     }
 
     .info label {
