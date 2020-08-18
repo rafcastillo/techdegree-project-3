@@ -74,8 +74,6 @@ textarea {
     margin: 20px 0 10px;
 }
 
-
-
 #name,
 #mail {
     text-align: right;
@@ -119,9 +117,19 @@ select {
 
 textarea {
     height: 125px;
+    resize: none;
 }
 
 /* Button - Submit */
+
+button {
+    background: #47b5aa;
+    color: #fff;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    margin: 20px 0;
+}
 
 /* ================
 Flexbox Layout 
