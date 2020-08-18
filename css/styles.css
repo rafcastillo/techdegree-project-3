@@ -57,19 +57,24 @@ legend {
     font-size: 1.4em;
 }
 
+.info input,
+.info select,
+textarea {
+    background-color: lightgray;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
 /* First Fieldset - Contact Information */
 
 .info label {
     margin: 20px 0 10px;
 }
 
-.info input,
-.info select {
-    background-color: lightgray;
-    padding: 10px;
-    border: 0;
-    border-radius: 5px;
-}
+
 
 #name,
 #mail {
@@ -91,9 +96,32 @@ select {
 
 /* Second Fieldset - Newsletter */
 
+.newslanglabel {
+    margin: 5px 0 20px;
+}
 
+.news input,
+.format input {
+    margin: 8px 5px;
+}
 
+.newsletter_format {
+    margin-bottom: 5px;
+}
 
+.newsforlabel {
+    margin: 20px 0 10px;
+}
+
+.suggestions label {
+    margin: 10px 0 20px;
+}
+
+textarea {
+    height: 125px;
+}
+
+/* Button - Submit */
 
 /* ================
 Flexbox Layout 
