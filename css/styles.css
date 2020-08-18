@@ -215,28 +215,32 @@ Media Queries
 
     .info label {
         margin: 10px 2px;
+        width: 25%;
     }
 
     .info {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin: 10px 0;
+        margin: 30px 0;
     }
 
-    .info select {
-        height: 48px;
-    }
 
     .info #state {
-        width: 330px;
+        width: 375px;
     }
     
     .info input,
     .info select {
-        padding: 15px;
-        flex-basis: 75%;
-        /* margin-left: auto; */
+        padding: 20px;
+        justify-self: flex-start;
+        margin-right: auto;
+        flex-basis: 75%
+    }
+
+    #zip {
+        flex-basis: 37.5%;
+        margin-right: auto;
     }
 
     footer {
