@@ -215,11 +215,20 @@ Media Queries
         align-items: center;
         margin: 10px 0;
     }
+
+    .info select {
+        height: 48px;
+    }
+
+    .info #state {
+        width: 330px;
+    }
     
     .info input,
     .info select {
-        width: 80%;
-        padding: 15px 0;
+        padding: 15px;
+        flex-basis: 75%;
+        /* margin-left: auto; */
     }
 
     footer {
