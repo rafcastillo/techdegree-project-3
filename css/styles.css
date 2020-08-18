@@ -76,6 +76,15 @@ legend {
     text-align: right;
 }
 
+#name:focus,
+#name:active,
+#name:valid,
+#mail:focus,
+#mail:active,
+#mail:valid {
+    text-align: left;
+}
+
 select {
     color: #7e7d7d;
 }
