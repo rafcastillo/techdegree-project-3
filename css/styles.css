@@ -160,6 +160,12 @@ textarea:focus {
     outline: 0;
 }
 
+/* Extra Credit - Main Section Backgrounds */
+
+#newsltr {
+    background-color: #dae8de;
+}
+
 /* ================
 Flexbox Layout 
 ================*/
