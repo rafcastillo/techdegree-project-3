@@ -148,6 +148,18 @@ button {
     margin: 10px 0 20px;
 }
 
+/* Form :focus States for text fields */
+
+[type="text"]:focus,
+[type="email"]:focus,
+[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    border: solid #47b5aa;
+    border-width: 4px 0;
+    outline: 0;
+}
+
 /* ================
 Flexbox Layout 
 ================*/
