@@ -169,6 +169,18 @@ textarea:focus {
 /* Extra Credit - CSS Transitions for Focus States */
 /* Use #b5aa47 */
 
+.info input,
+.info select,
+textarea {
+    transition: background-color 1s ease-in;
+}
+
+.info input:focus,
+.info select:focus,
+textarea:focus {
+    background-color: #b5aa47;
+}
+
 /* ================
 Flexbox Layout 
 ================*/
